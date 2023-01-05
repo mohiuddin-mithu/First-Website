@@ -32,3 +32,27 @@ nav li {
     font-weight: 600;
     padding: 16px 35px;
 }
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-content h3{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px
+}
+.banner-content h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    line-height: 116px;
+}
+.banner-content p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+
