@@ -3,6 +3,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* --------------- header and navbar style-----------------  */
+.header{
+    background-color: #FFF8F3;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,6 +34,17 @@ nav li {
     color: #fff;
     font-weight: 600;
     padding: 16px 35px;
+    
+}
+.btn-secondary{
+    border: 1px solid #FD6E0A;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 600;
+    padding: 16px 35px;
+    background: transparent;
+    
 }
 .banner{
     margin: 0 200px;
@@ -40,7 +54,8 @@ nav li {
 .banner-content h3{
     color: #474747;
     font-weight: 600;
-    font-size: 45px
+    font-size: 45px;
+    line-height: 61px;
 }
 .banner-content h1{
     font-weight: 700;
@@ -53,6 +68,7 @@ nav li {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 
 
